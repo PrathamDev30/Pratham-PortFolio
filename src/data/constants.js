@@ -1,6 +1,7 @@
 import Todo from "../images/todo.png"
 import MovieImg from "../images/movieApp.png"
 import CaptchImage from "../images/captcha.png"
+import Gemini from "../images/Gemini.png.png"
 
 
 
@@ -182,6 +183,20 @@ export const education = [
 export const projects = [
   {
     id: 1,
+    title: "Google Gemini Clone",
+    date: "Mar 2024",
+    description:
+      "A Generative AI App inspired by Google Gemini, powered by React.js! This app leverages the Google Gemini API to generate dynamic content, all within a user-friendly React interface" ,
+   image:Gemini,
+    tags: [
+     'React.js' , 'Gemini API' , 'Javascript '
+    ],
+    category: "web app",
+    github: "https://github.com/PrathamDev30/Gemini-Clone",
+    webapp: "https://gemini-clone-prathmesh-dev.netlify.app",
+  },
+  {
+    id: 2,
     title: "React Movie App",
     date: "Dec 2023 - Jan 2024",
     description:
@@ -198,7 +213,7 @@ export const projects = [
     webapp: "https://react-movie-app-pratham.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Todo App",
     date: "Jan 2024",
     description:
@@ -214,7 +229,7 @@ export const projects = [
     webapp: "https://my-todo-app-opal.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Captcha Generator with Verification",
     date: "Nov 2023",
     description:

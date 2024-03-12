@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { education, experiences } from "../../data/constants";
+import { education } from "../../data/constants";
 import EducationCard from "../Cards/EducationCard";
 
 const Container = styled.div`
